@@ -1,6 +1,4 @@
-Here's a Markdown file (`README.md`) for the `CryDBproject` repository that aligns with your requirements:
 
-```markdown
 # CryDBproject
 
 An illustration that depicts the management of a crystal database.
@@ -55,6 +53,3 @@ Parse the crystal by lattice cell. Each atom contained in the lattice is a node 
 - `node_embedding` (np.ndarray): The node embeddings, 106-dimensional.
 - `distance_matrix` (np.ndarray): The distance matrix in Cartesian coordinates.
 - `global_graph_info` (np.ndarray): Global information about the graph, 140-dimensional.
-```
-
-This file provides a clear and concise overview of the `CryDBproject`, including information about the crystal database, the demo database, and the toolkit for managing and analyzing the data.
