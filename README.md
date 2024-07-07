@@ -32,14 +32,14 @@ website.show('CryDB.db')
 
 ### 2. Graph Embedding of Each Data Entry
 
-To perform graph embedding on each data entry, use the `ASUkit` package:
+To perform graph embedding on each data entry, use the `Crylearn` package:
 
 ```bash
-pip install ASUkit
+pip install Crylearn
 ```
 
 ```python
-from ASUkit import cry2graph
+from Crylearn import cry2graph
 from ase.db import connect
 
 database = connect('CryDB.db')
