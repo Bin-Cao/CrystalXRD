@@ -1,5 +1,5 @@
 
-# CryDBproject
+# CrystalXRD project
 
 An illustration that depicts the management of a crystal database.
 
