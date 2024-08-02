@@ -3,7 +3,7 @@
 
 An illustration that depicts the management of a crystal database.
 
-## Crystal Database
+## Crystal Database ([link](https://huggingface.co/datasets/caobin/CrystalXRD))
 
 The `CryDB.db` is a crystal database that contains 723,158 pieces of crystals:
 - 154,718 crystals from the MP dataset, March 8, 2024
