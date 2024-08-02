@@ -24,7 +24,7 @@ To show and query each data entry, use the `CryDBkit` package:
 ```python
 from CryDBkit import website
 
-website.show('CryDB.db')
+website.show('demo.db')
 ```
 
 ### 2. Graph Embedding of Each Data Entry
@@ -36,7 +36,7 @@ To perform graph embedding on each data entry, use the `Crylearn` package:
 from Crylearn import cry2graph
 from ase.db import connect
 
-database = connect('CryDB.db')
+database = connect('demo.db')
 entry_id = 1
 
 node_embedding, _, dis_matrix, XRDpattern = cry2graph.parser(database, entry_id).get(model='Simulation')
