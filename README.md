@@ -31,6 +31,7 @@ website.show('demo.db')
 
 To perform graph embedding on each data entry, use the `Crylearn` package:
 
+`Python==3.9.19`
 
 ```python
 from Crylearn import cry2graph
